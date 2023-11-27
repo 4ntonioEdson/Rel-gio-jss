@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="relogio.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relogio</title>
+</head>
+<body>
+    <main class="container">
+        <div class="relogio-box">
+            <div class="relogio-box-div">
+                <span id="horas">00</span>
+                <span class="tempo">Horas</span>
+            </div>
+
+            <div class="relogio-box-div">
+                <span id="minutos">00</span>
+                <span class="tempo">Minutos</span>
+            </div>
+
+            <div class="relogio-box-div">
+                <span id="segundos">00</span>
+                <span class="tempo">Segundos</span>
+            </div>
+
+        </div>
+
+        <div class="previsao-box">
+            <input class="buscar" placeholder="Digite o nome da cidade">
+            <button class="botao-buscar" onclick="cliqueNobotao ()">
+                <img class="img-buscar" src="./assets/lupa.png">
+            </button>
+            <p class="cidade">Tempo em:</p>
+            <p class="temperatura">Temperatura atual: </p>
+            <p class="umidade">Umidade: </p>
+        </div>
+    </main>
+    <script src="./relogio.js"></script>
+</body>
+</html>
